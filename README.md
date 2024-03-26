@@ -6,7 +6,7 @@
 1. Клонируйте репозиторий на ваше устройство:
 
     ```bash
-    git clone 
+    git clone https://github.com/RomanZhukov-b/Recipe_site_itogovay?tab=readme-ov-file
     ```
 
 2. Установите зависимости:
