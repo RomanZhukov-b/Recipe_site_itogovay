@@ -1,6 +1,9 @@
 # Проект “Сайт рецептов” на Django
 
-[Проект развернут тут!](https://andybook.pythonanywhere.com/)
+
+
+
+[Сайт рецептов находиться тут!](https://andybook.pythonanywhere.com/)
 
 ## Установка
 1. Клонируйте репозиторий на ваше устройство:
@@ -17,30 +20,8 @@
 
 3. Создайте базу данных MySQL и настройте соединение с базой данных в файле settings.py:
 
-    ```python
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'database_name',
-            'USER': 'username',
-            'PASSWORD': 'password',
-            'HOST': 'localhost',
-            'PORT': '3306',
-        }
-    }
-   ```
    
-   Или можете раскомментировать следующие строки для работы с sqlite3 (и удалить строки ниже до блока `# Password validation`):
-   ```python
-   DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.sqlite3',
-         'NAME': BASE_DIR / 'db.sqlite3',
-     }
-   }
-   ```
-   
-4. Примените миграции базы данных:
+   4. Примените миграции базы данных:
 
     ```bash
     python manage.py migrate
@@ -74,7 +55,7 @@
 - Python
 - Django - фреймворк для разработки веб-приложений
 - MySQL - СУБД для хранения данных
-- JavaScript - для добавления интерактивности и динамического поведения
+- JavaScript - для добавления интерактивности
 - HTML/CSS - для создания пользовательского интерфейса
 
 
